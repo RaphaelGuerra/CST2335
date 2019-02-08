@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335</string>
+    <string name="hello_message">Olá, mundo!</string>
+    <string name="button1">Eu sou um botão</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CST2335</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="button1">I\`m a Button</string>
+</resources>
