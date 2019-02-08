@@ -3,4 +3,9 @@
     <string name="app_name">CST2335</string>
     <string name="hello_message">Olá, mundo!</string>
     <string name="button1">Eu sou um botão</string>
+    <string name="textView1">Aqui estão meus widgets:</string>
+    <string name="button2">BOTÃO</string>
+    <string name="checkbox1">Cheque isto!</string>
+    <string name="switch1">Ligar / Desligar</string>
+    <string name="editText1">Digite sua resposta aqui</string>
 </resources>
