@@ -8,4 +8,15 @@
     <string name="checkbox1">Cheque isto!</string>
     <string name="switch1">Ligar / Desligar</string>
     <string name="editText1">Digite sua resposta aqui</string>
+    <string name="enterEmail">Seu email:</string>
+    <string name="email">Digite seu email aqui</string>
+    <string name="enterPassword">Digite sua senha:</string>
+    <string name="login">LOGAR</string>
+    <string name="yourProfile">Seu perfil:</string>
+    <string name="yourName">Seu nome:</string>
+    <string name="name">Digite seu nome</string>
+    <string name="yourEmail">Seu email:</string>
+    <string name="profileEmail">Digite seu email</string>
+    <string name="imageButton">Tire uma foto!</string>
+    <string name="takePic">Aprte o botão acima para tirar uma foto</string>
 </resources>
