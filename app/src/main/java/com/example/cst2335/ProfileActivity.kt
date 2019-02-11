@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import kotlinx.android.synthetic.main.profile_lab3.*
+import kotlinx.android.synthetic.main.activity_profile_lab3.*
+
 
 class ProfileActivity : AppCompatActivity() {
 
@@ -18,7 +19,7 @@ class ProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.profile_lab3)
+        setContentView(R.layout.activity_profile_lab3)
         val intent = intent
         profileEmail.setText(intent.getStringExtra(SHARED_PREFS))
         imageButton.setOnClickListener{ dispatchTakePictureIntent()}
