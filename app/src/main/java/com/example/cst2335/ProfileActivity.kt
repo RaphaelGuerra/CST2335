@@ -6,22 +6,29 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import kotlinx.android.synthetic.main.profile_lab3.*
+import kotlinx.android.synthetic.main.activity_profile_lab4.*
+
 
 class ProfileActivity : AppCompatActivity() {
 
     companion object{
-        const val PROFILE_ACTIVITY = "PROFILE_ACTIVITY"
-        const val SHARED_PREFS = "sharedPrefs"
-        const val REQUEST_IMAGE_CAPTURE = 1
+        private const val PROFILE_ACTIVITY = "PROFILE_ACTIVITY"
+        private const val SHARED_PREFS = "sharedPrefs"
+        private const val REQUEST_IMAGE_CAPTURE = 1
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.profile_lab3)
+        setContentView(R.layout.activity_profile_lab4)
         val intent = intent
         profileEmail.setText(intent.getStringExtra(SHARED_PREFS))
         imageButton.setOnClickListener{ dispatchTakePictureIntent()}
+        goChat.setOnClickListener{ openChatActivity()}
+    }
+
+    private fun openChatActivity(){
+        val nextPage = Intent(this, ChatActivity::class.java)
+        startActivity(nextPage)
     }
 
     private fun dispatchTakePictureIntent(){
